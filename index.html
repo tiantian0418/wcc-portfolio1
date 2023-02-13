@@ -1,58 +1,174 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>WCC Portfolio</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+
+        <element class="flex-item">
     </head>
+    <style>
+        div{
+            text-align:center
+        }
+        body{ 
+      background-image: url("cloud.jpg")
+     }
+    </style>
+
+
     <body>
+<div>
 
-        <!--This is a comment in HTML-->
+    <header>
+        <h1 style="font-family:fantasy; font-size: 50px;color: rgb(29, 177, 177) ; margin-top: 70px;">
+            Tianyi's page
+        </h1>
+    </header>
+      
+<main>
+        <h2 style="font-family:fantasy;color:rgb(29, 177, 177)">Term 1</h2>
 
-        <!--This week we are keeping things very simple, please do not add anything extra, no CSS styling etc.-->
+        <section class="flex-container">
+            <div class="flex-item"> 
+                <a href="w1 self-portrait/index.html" target="_blank" id="my-special-id"> 
+                   
+                    <h4>Self-portrait</h4>
+                </a>
+            </div>
+        </section>
+            
+            <!-- <button class="Self-portrait" style="width:160px;height:50px;font-size: 20px;font-family:fantasy;">
+                <a href="w1 self-portrait/index.html" target="_blank" >
 
-        <!--Change to your full name below-->
-        <h1>Tianyi</h1>
+                    
+                        Self-portrait
+              
+                </a>
+            </button> -->
+<!-- 
+                <img src="self.png" width="200px"> -->
 
-        <h3>Term 1</h3>
+                <section class="flex-container">
+                    <div class="flex-item"> 
+                        <a href="w3 clock/index.html" target=“_blank”>
+                            <h4>Clock</h4>
+                        </a>
+                    </div>
+                </section>
+<!--                 
+            <button class="clock" style="width:160px;height:50px;font-size: 20px;font-family:fantasy;margin-left: 20px;">
+                <a href="w3 clock/index.html" target=_blank">
+                        Clock 
+                </a>
+            </button> -->
+            
+                <!-- <img src="clock.png" width="200px"> -->
 
-        <!--Add two to five links to projects from last term that you should host on github-->
-        <ul>
-            <li>
-                <!--This is a link, the href value should contain the url or relative path to a page. / means the root folder of the directory structure-->
-                <a href="w1 self-portrait/index.html">self-portrait</a>
-               
-            </li>
-                <a href="w3 clock/index.html">clock</a>
-            <li>
-                <!-- Keep adding as many new list items with links as you need-->
-                
-                <a href="w6 2/index.html">w6</a>
-            </li>
-        </ul>
+                <section class="flex-container">
+                    <div class="flex-item"> 
+                        <a href="w6 2/index.html" id="element" target="_blank">
+                            <h4> Changing line</h4>
+                        </a>
+                    </div>
+                </section>
+<!--             
+                <button class="Line" style="width:160px;height:50px;font-size: 20px;font-family:fantasy;margin-left: 20px;">
+              
+                <a href="w6 2/index.html" target="_blank">
+                    Changing line
+                </a>
+            </button> -->
+                    
+                <!-- <img src="line.png" width="200px"> -->
+                     
+                <br/>
+                <br/>
+                <br/>
 
-        <h3>Term 2</h3>
+        <h2 style="font-family:fantasy;">Term 2</h2>
 
-        <!-- Change the href attribute value from / to the url to your project -->
-        <ul>
+        <section class="flex-container">
+
+            <div class="flex-item"> 
+                <a href="Hypertext Concrete Poem/index.html">
+                    <h4>1. Hypertext Concrete Poem</h4>
+                </a>
+            </div>
+     
+            <div class="flex-item"> 
+                <a href="Tama_simple_feed/index.html">
+                    <h4>2. Simple Responsive p5 Code Example </h4>
+                </a>
+            </div>
+
+            <div class="flex-item"> 
+                <a href="Make or Scrape/index.html">
+                    <h4>3.Make or Scrap</h4>
+                </a>
+            </div>
+
+            <div class="flex-item"> 
+                <a href="#">
+                    <h4>4.Visualizing</h4>
+                </a>
+            </div>
+
+                <!-- Keep adding per week -->
+
+            
+        </section> 
+        <!-- <ul>
             <li>
                 
                 <a href="Hypertext Concrete Poem/index.html">Hypertext Concrete Poem</a>
-                <a href="Feeding/index.html">Feed food</a>
-                <a href="Make or Scrape/index.html">Make or Scrape</a>
+               
             </li>
 
             <li>
                 
-    
                 <a href="Feeding/index.html">Feed food</a>
               
             </li>
 
             <li>
-            <a href="Make or Scrape/index.html">Make or Scrape</a>
+
+                <a href="Make or Scrape/index.html">Make or Scrape</a>
 
             </li>
-        </ul>
+        </ul> -->
 
+        <style>
+            .Self-portrait{
+            background-color: rgb(251, 222, 240);
+            color:rgb(29, 177, 177)
+            }
+            
+            .clock{
+            background-color: rgb(251, 222, 240);
+        color:rgb(29, 177, 177)
+            }
+
+            .Line{
+            background-color: rgb(251, 222, 240);
+            color:rgb(29, 177, 177)
+            }
+            
+        </style>
+<!-- </div> -->
+
+</main>  
     </body>
+</div>
+    <footer>
+        <!-- normally information like contact details etc  -->
+        <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+        
+     </footer>
 </html>
