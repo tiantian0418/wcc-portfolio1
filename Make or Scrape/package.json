@@ -1,0 +1,14 @@
+{
+  "name": "node_web_scrape",
+  "version": "1.0.0",
+  "description": "A web sraping example for wikipedia using jssoup.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rebecca Aston",
+  "license": "ISC",
+  "dependencies": {
+    "jssoup": "0.0.15"
+  }
+}

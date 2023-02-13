@@ -66,15 +66,15 @@ footer{
   text-align: center;
   text-decoration: none;
   color:#4f4f4f;
-  transition: all 0.8s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+  transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
 }
 
 /* want a different background image for each project? */
 /* try give each a tag a unique id in your HTML and then set different background images here*/
 /* EXAMPLE CSS: won't work if you just un-comment this:*/
-.flex-item my-special-id{
+/* .flex-item a#my-special-id{
   background-image: url(../assets/images/custom-image-name.jpeg); 
-}
+} */
 
 
 .flex-item a:hover{
